@@ -9,15 +9,23 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "next": "15.1.7",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "next": "15.1.7"
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
+    "@eslint/eslintrc": "^3",
     "eslint": "^9",
     "eslint-config-next": "15.1.7",
-    "@eslint/eslintrc": "^3"
+    "eslint-config-prettier": "^10.0.1",
+    "gh-pages": "^6.3.0",
+    "motion": "^12.4.3",
+    "postcss": "^8",
+    "prettier": "^3.5.1",
+    "react-fast-marquee": "^1.6.5",
+    "react-slick": "^0.30.3",
+    "rsuite": "^5.77.1",
+    "slick-carousel": "^1.8.1",
+    "tailwindcss": "^3.4.1"
   }
 }
