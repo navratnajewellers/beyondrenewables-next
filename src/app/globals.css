@@ -19,3 +19,106 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+.p-l-5 {
+  padding-left: 5px;
+}
+
+.p-r-5 {
+  padding-right: 5px;
+}
+
+.p-r-10 {
+  padding-right: 10px;
+}
+
+.p-r-15 {
+  padding-right: 15px;
+}
+
+body {
+  /* background-color: black; */
+  /* color: #ffffff; */
+  background-color: #f3f3f1;
+}
+
+.imageWrapper {
+  width: 100%;
+}
+
+.imageWrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+.main-color {
+  color: #ff8b38;
+}
+
+.carousel-img-container {
+  /* border: solid 1px red; */
+  padding-right: 15px;
+}
+
+.carousel-img-container a {
+  /* border: solid 1px red; */
+  display: inline-block;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.carousel-img-container a::before {
+  content: "";
+  color: #ffffff;
+  /* color: #ff8b38; */
+  font-size: 180%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  position: absolute;
+  top: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 35px;
+  transition: all 0.3s ease;
+}
+
+.carousel-img-container a:hover::before {
+  top: 0;
+}
+
+.carousel-link1::before {
+  content: "Glass Cutllets" !important;
+}
+
+.carousel-link2::before {
+  content: "Aluminium" !important;
+}
+
+.carousel-link3::before {
+  content: "Copper" !important;
+}
+
+.carousel-link4::before {
+  content: "Silver" !important;
+}
+
+.carousel-link5::before {
+  content: "Plastic Pyrolysis Oil" !important;
+}

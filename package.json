@@ -1,12 +1,14 @@
 {
   "name": "beyondrenewables-next",
   "version": "0.1.0",
+  "homepage": "https://navratnajewellers.github.io/beyondrenewables-next/",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "npm run build && gh-pages -d out"
   },
   "dependencies": {
     "next": "15.1.7",
